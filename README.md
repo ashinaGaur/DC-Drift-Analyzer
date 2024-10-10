@@ -45,6 +45,8 @@ The PowerBI dashboard provides a detailed overview of DC-related information, fe
 ![PowerBi_Page2](https://github.com/user-attachments/assets/5929c0ff-c366-4e3d-aa16-373a03d1f97a)
 ![PowerBi_Page3](https://github.com/user-attachments/assets/83f6b3ee-0ac5-426a-9a6f-01e68f427782)
 ![PowerBi_Page4](https://github.com/user-attachments/assets/b9c02aa3-0cf8-421d-8d42-6b823a29e51d)
-- **Visualization**: Uses Power BI 
-to visualize the data for better analysis and reporting.
+
+## Findings:
+- **Percentage of DC values that are not drifted:** 20.8%
+![image](https://github.com/user-attachments/assets/1c135cfa-2ba6-4e76-912e-f8d3a2ebea52)
 
