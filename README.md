@@ -26,6 +26,9 @@
 - The parser has been written in python code. The parser fetches information after parsing the .ini file and consolidates the information in an excel sheet like as below.
 !informationAfterParsing
 This includes the FileName, ConfigurationName, Region, Value of the DC, Commit Id, Commit time and Author of the DC.
+![ExcelAfterParsing](https://github.com/user-attachments/assets/6af71770-6891-4e55-9263-8bd302cffd0b)
+
+
 - **Data Storage**: Leverages an existing Kusto table for active configuration snapshots.
 - The information fetched from the Parser is compared with the Active Configuration(This is fetched from Kusto) for identification of DC Drifts.
 
@@ -37,5 +40,11 @@ The PowerBI dashboard provides a detailed overview of DC-related information, fe
 - **Graphical Representation**: Visual charts and graphs for better understanding.
 - **DC Count**: Total count of DCs across regions.
 - **DC Drifts**: Comparison of DC values in config files with the actual active configuration of DC values in Kusto.
+  
+![Powerbi_Page1](https://github.com/user-attachments/assets/932c3474-2333-498f-8c36-2c0774fa01be)
+![PowerBi_Page2](https://github.com/user-attachments/assets/5929c0ff-c366-4e3d-aa16-373a03d1f97a)
+![PowerBi_Page3](https://github.com/user-attachments/assets/83f6b3ee-0ac5-426a-9a6f-01e68f427782)
+![PowerBi_Page4](https://github.com/user-attachments/assets/b9c02aa3-0cf8-421d-8d42-6b823a29e51d)
+- **Visualization**: Uses Power BI 
+to visualize the data for better analysis and reporting.
 
-- **Visualization**: Uses Power BI to visualize the data for better analysis and reporting.
