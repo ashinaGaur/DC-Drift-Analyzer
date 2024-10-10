@@ -28,12 +28,14 @@
 This includes the FileName, ConfigurationName, Region, Value of the DC, Commit Id, Commit time and Author of the DC.
 - **Data Storage**: Leverages an existing Kusto table for active configuration snapshots.
 - The information fetched from the Parser is compared with the Active Configuration(This is fetched from Kusto) for identification of DC Drifts.
+
 The PowerBI dashboard provides a detailed overview of DC-related information, featuring:
 
-Configuration Files: Comprehensive details of all config files.
-Regions: Information on various regions.
-DC Values: DC values for each region.
-Graphical Representation: Visual charts and graphs for better understanding.
-DC Count: Total count of DCs across regions.
-DC Drifts: Comparison of DC values in config files with the actual active configuration of DC values in Kusto.
+- **Configuration Files**: Comprehensive details of all config files.
+- **Regions**: Information on various regions.
+- **DC Values**: DC values for each region.
+- **Graphical Representation**: Visual charts and graphs for better understanding.
+- **DC Count**: Total count of DCs across regions.
+- **DC Drifts**: Comparison of DC values in config files with the actual active configuration of DC values in Kusto.
+
 - **Visualization**: Uses Power BI to visualize the data for better analysis and reporting.
